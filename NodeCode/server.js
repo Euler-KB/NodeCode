@@ -10,9 +10,7 @@ function book(id, title, author) {
     this.author = author;
 }
 
-Array.prototype.removeAt = function (index) {
-    return !!this.splice(index, 1)
-}
+Array.prototype.removeAt = function (index) { return !!this.splice(index, 1) }
 
 Array.prototype.removeItem = function (item) {
     let index = this.indexOf(item);
