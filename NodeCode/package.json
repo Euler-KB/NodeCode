@@ -1,0 +1,13 @@
+{
+  "name": "node-code",
+  "version": "0.0.0",
+  "description": "NodeCode",
+  "main": "server.js",
+  "author": {
+    "name": "Euler-KB"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
